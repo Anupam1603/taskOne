@@ -1,21 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+const logoUrl = "https://www.propelleraero.com/wp-content/uploads/2021/05/Vector.svg"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={logoUrl} className="App-logo" alt="logo" />
+      
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.propelleraero.com/dirtmate/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          propeller
         </a>
       </header>
     </div>
